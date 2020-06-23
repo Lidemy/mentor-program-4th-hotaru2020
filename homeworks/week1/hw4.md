@@ -14,15 +14,16 @@
 
 * git add. 全部檔案加入版本控制
 * git commit 建立一個新的版本
-* git commit - m ooo 建立一個ooo的版本
-* git commit - am new file ：new file就會被放入版本控制，方便好用。
+* git commit -m ooo 建立一個ooo的版本
+* git commit -am "new file" ：new file就會被放入版本控制，方便好用。
 
 * git log：歷史紀錄
 * git diff：改動紀錄
 
 * git checkout 版本名稱：變回輸入版本的狀態
 * git checkout master：回到最新版本
-* git - oneline ：簡短狀態
+＃「回到 master 這個 branch 的最新版本」，並不代表整個專案的最新版本。  
+* git --oneline ：簡短狀態
 
 * .gitignore : 要忽略的東西
 
@@ -30,9 +31,9 @@
 
 在兩條 branch 上可以平行同時做開發。一邊 debug 一邊做新功能開發，並可將兩個 branch 做合併 merge。
 
-* git branch - v：會得到 master 這個分支
+* git branch -v： 列出目前分支及顯示所在分支。
 * git branch new feature：開一個叫 new feature 的分支
-* git bransh - d new-feature：刪掉 new feature 這個分支。d 亦為 delete。
+* git bransh -d new-feature：刪掉 new feature 這個分支。d 亦為 delete。
 
 ### 切換分支
 
