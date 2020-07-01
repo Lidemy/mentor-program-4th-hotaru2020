@@ -2,7 +2,11 @@
 
 前端是我們看得到的畫面，主要由html css javescript 所組成。
 
+<<<<<<< HEAD
 後端是我們看不到的地方，ex : database、server 。
+=======
+## 假設我今天去 Google 首頁搜尋框打上：JavaScript 並且按下 Enter，請說出從這一刻開始到我看到搜尋結果為止發生在背後的事情。
+>>>>>>> c3212af17d4dcaa0f56360ad807bfee49a892d3c
 
 ### 假設我今天去 Google 首頁搜尋框打上：JavaScript 並且按下 Enter，請說出從這一刻開始到我看到搜尋結果為止發生在背後的事情。
 
